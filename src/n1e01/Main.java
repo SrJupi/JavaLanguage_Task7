@@ -10,25 +10,25 @@ public class Main {
         animal.fly();
 
         //Dog class inherits Animal and overrides some methods
-        Dog Dog = new Dog();
-        Dog.makeNoise();
-        Dog.walk();
-        Dog.swim();
-        Dog.fly();
+        Dog dog = new Dog();
+        dog.makeNoise();
+        dog.walk();
+        dog.swim();
+        dog.fly();
 
         //Bird class inherits Animal and overrides some methods
-        Bird Bird = new Bird();
-        Bird.makeNoise();
-        Bird.walk();
-        Bird.swim();
-        Bird.fly();
+        Bird bird = new Bird();
+        bird.makeNoise();
+        bird.walk();
+        bird.swim();
+        bird.fly();
 
         //Duck class inherits Bird and overrides all methods
-        Duck Duck = new Duck();
-        Duck.makeNoise();
-        Duck.walk();
-        Duck.swim();
-        Duck.fly();
+        Duck duck = new Duck();
+        duck.makeNoise();
+        duck.walk();
+        duck.swim();
+        duck.fly();
 
 
     }
